@@ -1,6 +1,6 @@
 def roll_call_dwarves# code an argument here
 array = ["Doc", "Dopey", "Bashful", "Grumpy"]
-array.map{ |name| puts name.number}
+array.each_with_index{ |name| puts name}
 end
 
 def summon_captain_planet# code an argument here
