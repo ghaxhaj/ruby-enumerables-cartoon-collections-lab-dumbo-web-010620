@@ -5,7 +5,7 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.split{ |name| p "#{name}!".collect
+  planeteer_calls.each{ |name| p "#{name.capitalze}!"
 end
 
 def long_planeteer_calls# code an argument here
